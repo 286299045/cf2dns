@@ -23,6 +23,6 @@ jobs:
         env:
           KEY: ${{ secrets.KEY }}
           DOMAINS: ${{ secrets.DOMAINS }}
-          SecretId: ${{ secrets.SECRETID }}
-          SecretKey: ${{ secrets.SECRETKEY }}
+          SECRETID: ${{ secrets.SECRETID }}
+          SECRETKEY: ${{ secrets.SECRETKEY }}
         run: python cf2dns_actions.py
